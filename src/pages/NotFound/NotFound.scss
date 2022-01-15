@@ -1,0 +1,47 @@
+.not_found {
+  background: rgb(131, 88, 232);
+  background: linear-gradient(
+    0deg,
+    rgba(131, 88, 232, 1) 0%,
+    rgba(76, 114, 230, 1) 100%
+  );
+  box-sizing: border-box;
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 6rem;
+  color: white;
+
+  h4 {
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
+  h1 {
+    font-size: 12rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+    font-weight: lighter;
+    text-align: center;
+    line-height: 30px;
+    margin: 2rem 0;
+  }
+
+  button {
+    color: #8558e8;
+    width: 8rem;
+    margin-bottom: 2rem;
+    padding: 0.8rem 0;
+    font-weight: 500;
+    font-size: 1.1rem;
+    background-color: white;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.16);
+    cursor: pointer;
+  }
+}

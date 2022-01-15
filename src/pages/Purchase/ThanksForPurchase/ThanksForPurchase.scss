@@ -1,0 +1,286 @@
+.thanks_for_purchase {
+  background-color: #eeeeee;
+
+  .top {
+    text-align: center;
+    padding: 2rem;
+    color: white;
+    z-index: 3;
+
+    img {
+      position: absolute;
+      left: -6rem;
+      top: -14rem;
+      z-index: 0;
+    }
+
+    .text {
+      position: relative;
+      z-index: 3;
+
+      margin-top: 5rem;
+      h1 {
+        font-size: 3rem;
+        margin: 1rem 0;
+      }
+
+      p {
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  .main {
+    padding: 2rem;
+    padding-top: 6rem;
+
+    h2 {
+      font-weight: bold;
+      font-size: 2.2rem;
+    }
+
+    .main_row {
+      margin-top: 2rem;
+      width: 100%;
+      display: flex;
+      align-items: flex-start;
+      place-content: space-between;
+
+      .details {
+        margin-top: -20rem;
+        padding-top: 17rem;
+        padding-left: 5rem;
+        width: 64%;
+        background-color: white;
+        display: flex;
+        align-items: flex-start;
+
+        .success {
+          margin-top: -2rem;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          h2 {
+            color: #1a1a1a;
+            font-size: 2.5rem;
+          }
+
+          img {
+            background: rgb(131, 88, 232);
+            background: linear-gradient(
+              180deg,
+              rgba(131, 88, 232, 1) 0%,
+              rgba(76, 114, 230, 1) 100%
+            );
+            width: 3rem;
+            height: 3rem;
+            padding: 1rem;
+            border-radius: 50%;
+            box-shadow: rgba(131, 88, 232, 0.5) 0px 3px 24px;
+          }
+
+          .line {
+            margin-top: 3rem;
+            width: 3px;
+            height: 12rem;
+            background-color: rgba(131, 88, 232, 0.45);
+          }
+        }
+
+        .thanks_details {
+          margin-left: 5rem;
+          width: 40%;
+
+          h3 {
+            font-size: 1.8rem;
+            color: #343434;
+            font-weight: 500;
+          }
+
+          p {
+            margin: 1rem 0;
+            color: #9a9a9a;
+
+            span {
+              color: #8358e8;
+            }
+          }
+
+          h4 {
+            font-weight: 500;
+            color: #343434;
+            font-size: 1.1rem;
+            margin-top: 4rem;
+          }
+
+          .big_user,
+          .mid_user,
+          .small_user {
+            margin: 1rem 0;
+            background-color: rgba(225, 213, 255, 0.23);
+            display: flex;
+            align-items: center;
+            padding: 1rem 2.5rem;
+            border-radius: 1.5rem;
+            width: fit-content;
+
+            img {
+              width: 3rem;
+            }
+
+            p {
+              margin: 0 0.5rem;
+              font-size: 1.2rem;
+              font-weight: 500;
+              color: black;
+            }
+
+            .user_plan {
+              margin: 0;
+              color: white;
+              border-radius: 0.5rem;
+              padding: 0.3rem 0.5rem;
+              font-size: 0.8rem;
+              background: rgb(255, 255, 255);
+              background: radial-gradient(
+                circle,
+                rgba(192, 165, 255, 1) 0%,
+                rgba(98, 69, 165, 1) 100%
+              );
+              box-shadow: 0 0 15px #8358e8;
+            }
+          }
+
+          .big_user {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+
+            img {
+              width: 90%;
+            }
+
+            h5 {
+              font-size: 1.2rem;
+              font-weight: 500;
+              color: black;
+              margin: 0.5rem 0;
+            }
+
+            p {
+              font-size: 0.9rem;
+              font-weight: 500;
+              color: #5b5b5b;
+
+              span {
+                color: #77ff92;
+              }
+            }
+
+            .user_plan {
+              position: absolute;
+              right: 0.5rem;
+              bottom: 2.5rem;
+            }
+          }
+
+          .small_user {
+            img {
+              margin-right: 1rem;
+            }
+          }
+        }
+      }
+
+      .order {
+        width: 25%;
+        padding: 1rem;
+        background-color: white;
+        box-shadow: 0 0 10 rgba(0, 0, 0, 0.13);
+        border-top: 1rem solid #8358e8;
+
+        .title {
+          padding-bottom: 1rem;
+          display: flex;
+          align-items: center;
+          border-bottom: 1px solid rgba(112, 112, 112, 0.24);
+
+          h2 {
+            margin-left: 0.5rem;
+            font-size: 1.3rem;
+          }
+        }
+
+        .product_details,
+        .coupon,
+        .total,
+        .paid,
+        .total_due {
+          padding: 1rem 0;
+          display: flex;
+          align-items: center;
+          place-content: space-between;
+
+          h3 {
+            color: #9a9a9a;
+            font-weight: 500;
+            font-size: 1.1rem;
+          }
+
+          .totalText {
+            color: #2d2d2d;
+            font-weight: 500;
+          }
+
+          .price {
+            color: #404040;
+            font-size: 1.3rem;
+            font-weight: 500;
+          }
+
+          .discount {
+            color: #4fd283;
+            font-size: 1.3rem;
+            font-weight: 500;
+          }
+        }
+
+        .total_due {
+          padding-top: 0;
+        }
+
+        p {
+          margin: 0;
+          color: #9a9a9a;
+          font-size: 1rem;
+        }
+
+        .coupon {
+          border-bottom: 1px solid rgba(112, 112, 112, 0.24);
+        }
+
+        .total_savings {
+          display: flex;
+          align-items: center;
+          place-content: space-between;
+          padding: 0.5rem;
+          border-radius: 0.5rem;
+          background-color: rgba(119, 255, 173, 0.3);
+
+          p {
+            color: #1fb95d;
+          }
+
+          .price {
+            color: #4fd283;
+            font-size: 1.3rem;
+            font-weight: 500;
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+}

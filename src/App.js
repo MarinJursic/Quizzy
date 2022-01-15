@@ -1,24 +1,47 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
+import { Suspense, lazy } from "react";
+
+import { Provider } from "react-redux";
+import store from "./store";
+
+import LoadingPage from "./pages/Loading/Loading";
+
+const Dashboard = lazy(() => import("./pages/Dashboard/Dashboard"));
+const Header = lazy(() => import("./components/Header/Header"));
+const QuizzyPlus = lazy(() => import("./pages/QuizzyPlus/QuizzyPlus"));
+const Purchase = lazy(() => import("./pages/Purchase/Purchase"));
+const ThanksForPurchase = lazy(() =>
+  import("./pages/Purchase/ThanksForPurchase/ThanksForPurchase")
+);
+const Login = lazy(() => import("./pages/Login/Login"));
+const Signup = lazy(() => import("./pages/Signup/Signup"));
+const NotFound = lazy(() => import("./pages/NotFound/NotFound"));
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Provider store={store}>
+      <Router>
+        <Suspense fallback={<LoadingPage />}>
+          <Header />
+          <Routes>
+            <Route exact path="/" element={<Navigate to="/dashboard" />} />
+            <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/quizzyplus" element={<QuizzyPlus />} />
+            <Route path="/purchase" element={<Purchase />} />
+            <Route path="/purchase/thanks" element={<ThanksForPurchase />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/signup" element={<Signup />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </Suspense>
+      </Router>
+    </Provider>
   );
 }
 

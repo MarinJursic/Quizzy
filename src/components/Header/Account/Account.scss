@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "Segoe UI Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../../../public/fonts/SergoeUI/Segoe\ UI.woff");
+}
+
+@font-face {
+  font-family: "Segoe UI Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../../../public/fonts/SergoeUI/Segoe\ UI\ Bold.woff");
+}
+
+.account {
+  display: flex;
+  align-items: center;
+
+  img {
+    padding-right: 10px;
+  }
+
+  h3 {
+    font-family: "Segoe UI Regular", sans-serif;
+    color: white;
+    padding-right: 10px;
+    white-space: nowrap;
+  }
+
+  svg {
+    padding-right: 10px;
+  }
+
+  h4 {
+    font-family: "Segoe UI Regular", sans-serif;
+    font-size: 16px;
+  }
+
+  .button {
+    outline: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    height: 2.5rem;
+    padding-inline: 1rem;
+    background-color: white;
+    color: #8558e8;
+    border-radius: 15px;
+    text-decoration: none;
+    margin-inline: 0.5rem;
+
+    svg {
+      padding-right: 5px;
+    }
+
+    &:hover {
+      cursor: pointer;
+      background-color: rgb(200, 200, 200);
+      transition: background-color 0.1s;
+    }
+
+    &:active {
+      background-color: white;
+    }
+  }
+}

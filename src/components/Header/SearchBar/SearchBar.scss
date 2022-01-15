@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Segoe UI Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../../../public/fonts/SergoeUI/Segoe\ UI.woff");
+}
+
+.searchBar {
+  width: 30rem;
+  height: 2.5rem;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding-inline: 1rem;
+  margin-right: 2.5rem;
+
+  svg {
+    padding-right: 10px;
+  }
+
+  input {
+    width: 100%;
+    font-family: "Segoe UI Regular", sans-serif;
+    outline: none;
+    border: none;
+  }
+}

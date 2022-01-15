@@ -1,0 +1,54 @@
+$gradient-color-1: #8358e8;
+$gradient-color-2: #4c72e6;
+
+@font-face {
+  font-family: Dubai;
+  src: url("../../../public/fonts/dubai/DubaiW23-Bold.ttf");
+}
+
+header {
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 2rem;
+  height: 5rem;
+  background: rgb(76, 114, 230);
+  background: -moz-linear-gradient(
+    0deg,
+    $gradient-color-2 0%,
+    $gradient-color-1 80%
+  );
+  background: -webkit-linear-gradient(
+    0deg,
+    $gradient-color-2 0%,
+    $gradient-color-1 80%
+  );
+  background: linear-gradient(
+    0deg,
+    $gradient-color-2 0%,
+    $gradient-color-1 80%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4c72e6",endColorstr="#8358e8",GradientType=1);
+
+  h1 {
+    margin: 0;
+    font-family: Dubai, sans-serif;
+    color: white;
+    cursor: pointer;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
