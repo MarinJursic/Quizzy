@@ -90,7 +90,7 @@ function Dashboard() {
   }, []);
 
   return (
-    <main>
+    <main className="main">
       <Navbar />
       <section className="dashboard">
         <div className="content">

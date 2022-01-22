@@ -17,9 +17,9 @@ $gradient-color-2: #4c72e6;
   background-color: #eeeeee;
   padding-bottom: 5rem;
 
-  svg {
+  .plusbg {
     position: absolute;
-    top: -9rem;
+    top: -100%;
     left: -2.5rem;
     z-index: 1;
   }
