@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="86.689" height="86.689" viewBox="0 0 86.689 86.689">
+  <defs>
+    <filter id="Rectangle_253" x="0" y="0" width="86.689" height="86.689" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-color="#8358e8"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_55" data-name="Group 55" transform="translate(-1083.655 -4104.811)">
+    <g id="Group_54" data-name="Group 54">
+      <g id="Group_53" data-name="Group 53">
+        <g transform="matrix(1, 0, 0, 1, 1083.66, 4104.81)" filter="url(#Rectangle_253)">
+          <rect id="Rectangle_253-2" data-name="Rectangle 253" width="41.689" height="41.689" rx="10" transform="translate(22.5 22.5)" fill="#b9a2ee"/>
+        </g>
+        <path id="Polygon_11" data-name="Polygon 11" d="M7.5,0,15,13H0Z" transform="translate(1135 4181) rotate(180)" fill="#b9a2ee"/>
+        <g id="sentiment_very_satisfied_black_24dp_1_" data-name="sentiment_very_satisfied_black_24dp (1)" transform="translate(1113.37 4134.525)">
+          <path id="Path_52" data-name="Path 52" d="M0,0H27.26V27.26H0Z" fill="none"/>
+          <path id="Path_53" data-name="Path 53" d="M14.548,2A12.56,12.56,0,1,0,27.121,14.56,12.546,12.546,0,0,0,14.548,2Zm.013,22.609A10.048,10.048,0,1,1,24.609,14.56,10.046,10.046,0,0,1,14.56,24.609Zm1.256-12.636L17.148,13.3l1.331-1.331L19.811,13.3l1.331-1.331L18.479,9.31Zm-5.175,0L11.973,13.3,13.3,11.973,10.642,9.31,7.979,11.973,9.31,13.3l1.331-1.331Zm3.919,9.5a6.9,6.9,0,0,0,6.418-4.4H8.142A6.9,6.9,0,0,0,14.56,21.469Z" transform="translate(-0.93 -0.93)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="683" height="590" viewBox="0 0 683 590">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4c72e6"/>
+      <stop offset="1" stop-color="#8358e8"/>
+    </linearGradient>
+  </defs>
+  <g id="Rectangle_294" data-name="Rectangle 294" fill="#8358e8" stroke="#707070" stroke-width="1" opacity="0.19">
+    <rect width="683" height="590" rx="50" stroke="none"/>
+    <rect x="0.5" y="0.5" width="682" height="589" rx="49.5" fill="none"/>
+  </g>
+  <rect id="Rectangle_295" data-name="Rectangle 295" width="631" height="341" rx="20" transform="translate(23 109)" fill="#fff"/>
+  <rect id="Rectangle_296" data-name="Rectangle 296" width="429" height="202" rx="20" transform="translate(127 213)" fill="#ececec"/>
+  <rect id="Rectangle_297" data-name="Rectangle 297" width="429" height="60" rx="7" transform="translate(127 126)" fill="#d1dcff"/>
+  <rect id="Rectangle_298" data-name="Rectangle 298" width="308" height="60" rx="7" transform="translate(634 126) rotate(90)" fill="#d1dcff"/>
+  <rect id="Rectangle_299" data-name="Rectangle 299" width="308" height="60" rx="7" transform="translate(109 126) rotate(90)" fill="#d1dcff"/>
+  <g id="block_black_24dp" transform="translate(206.267 152)">
+    <path id="Path_145" data-name="Path 145" d="M0,0H252.467V252.467H0Z" fill="none"/>
+    <path id="Path_146" data-name="Path 146" d="M107.194,2A105.195,105.195,0,1,0,212.389,107.194,105.233,105.233,0,0,0,107.194,2ZM23.039,107.194a84.132,84.132,0,0,1,84.156-84.156A83.128,83.128,0,0,1,158.74,40.817L40.817,158.74A83.128,83.128,0,0,1,23.039,107.194Zm84.156,84.156a83.128,83.128,0,0,1-51.545-17.778L173.572,55.649a83.128,83.128,0,0,1,17.778,51.545A84.132,84.132,0,0,1,107.194,191.35Z" transform="translate(19.039 19.039)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

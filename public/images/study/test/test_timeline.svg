@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1382" height="130.5" viewBox="0 0 1382 130.5">
+  <defs>
+    <filter id="Rectangle_232" x="48" y="6.5" width="638" height="52" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#8358e8"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <line id="Line_56" data-name="Line 56" y2="64" transform="translate(62.5)" fill="none" stroke="#707070" stroke-width="1"/>
+  <line id="Line_57" data-name="Line 57" x2="1283" transform="translate(62.5 32)" fill="none" stroke="#707070" stroke-width="1"/>
+  <line id="Line_58" data-name="Line 58" y2="64" transform="translate(1345.5)" fill="none" stroke="#707070" stroke-width="1"/>
+  <text id="_11_18" data-name="11/18" transform="translate(43 94.5)" fill="#7b7b7b" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">11/18</tspan></text>
+  <text id="_11_25" data-name="11/25" transform="translate(1326 94.5)" fill="#7b7b7b" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">11/25</tspan></text>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_232)">
+    <path id="Rectangle_232-2" data-name="Rectangle 232" d="M0,0H597a11,11,0,0,1,11,11v0a11,11,0,0,1-11,11H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(63 21.5)" fill="#8358e8"/>
+  </g>
+  <text id="_11_21" data-name="11/21" transform="translate(648 94.5)" fill="#7b7b7b" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">11/21</tspan></text>
+  <text id="Started_studying" data-name="Started studying" transform="translate(0 125.5)" fill="#7b7b7b" font-size="17" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Started studying</tspan></text>
+  <text id="Test_Date" data-name="Test Date" transform="translate(1310 125.5)" fill="#7b7b7b" font-size="17" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Test Date</tspan></text>
+  <text id="Today" transform="translate(644 125.5)" fill="#7b7b7b" font-size="17" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Today</tspan></text>
+</svg>

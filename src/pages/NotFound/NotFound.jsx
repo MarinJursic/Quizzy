@@ -17,7 +17,7 @@ function NotFound() {
         <br /> {"It's"} best not to get distracted.
         {"Let's"} get back to studying.
       </p>
-      <button onClick={() => navigate(-1)}>Go back</button>
+      <button onClick={() => navigate(-2)}>Go back</button>
       <Link to="/dashboard">
         <button>Home</button>
       </Link>

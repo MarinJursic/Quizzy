@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1159.225" height="365.83" viewBox="0 0 1159.225 365.83">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.833" gradientTransform="matrix(0.678, 0.735, -0.678, 0.625, 0.5, -0.18)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#c0a5ff"/>
+      <stop offset="1" stop-color="#6245a5"/>
+    </radialGradient>
+    <filter id="Rectangle_363" x="276.631" y="287.83" width="115" height="78" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-color="#8358e8"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <line id="Line_60" data-name="Line 60" x2="1059.397" transform="translate(99.826 209.5)" fill="none" stroke="#707070" stroke-width="3" opacity="0.24"/>
+  <line id="Line_61" data-name="Line 61" x2="1059.397" transform="translate(99.826 160.5)" fill="none" stroke="#707070" stroke-width="3" opacity="0.24"/>
+  <line id="Line_62" data-name="Line 62" x2="1059.397" transform="translate(99.826 111.5)" fill="none" stroke="#707070" stroke-width="3" opacity="0.24"/>
+  <line id="Line_63" data-name="Line 63" x2="1059.397" transform="translate(99.826 62.5)" fill="none" stroke="#707070" stroke-width="3" opacity="0.24"/>
+  <line id="Line_64" data-name="Line 64" x2="1059.397" y2="2" transform="translate(99.826 13.5)" fill="none" stroke="#ddd" stroke-width="3"/>
+  <text id="_11_18" data-name="11/18" transform="translate(173.42 253)" fill="#919191" font-size="25" font-family="Dubai-Medium, Dubai" font-weight="500"><tspan x="0" y="0">11/18</tspan></text>
+  <text id="_11_19" data-name="11/19" transform="translate(311.689 253)" fill="#919191" font-size="25" font-family="Dubai-Medium, Dubai" font-weight="500"><tspan x="0" y="0">11/19</tspan></text>
+  <text id="_11_20" data-name="11/20" transform="translate(449.957 253)" fill="#919191" font-size="25" font-family="Dubai-Medium, Dubai" font-weight="500"><tspan x="0" y="0">11/20</tspan></text>
+  <text id="_11_21" data-name="11/21" transform="translate(588.227 253)" fill="#919191" font-size="25" font-family="Dubai-Medium, Dubai" font-weight="500"><tspan x="0" y="0">11/21</tspan></text>
+  <text id="_11_22" data-name="11/22" transform="translate(749.818 253)" fill="#919191" font-size="25" font-family="Dubai-Medium, Dubai" font-weight="500"><tspan x="0" y="0">11/22</tspan></text>
+  <text id="_11_23" data-name="11/23" transform="translate(911.41 253)" fill="#919191" font-size="25" font-family="Dubai-Medium, Dubai" font-weight="500"><tspan x="0" y="0">11/23</tspan></text>
+  <text id="_11_24" data-name="11/24" transform="translate(1073.545 253)" fill="#919191" font-size="25" font-family="Dubai-Medium, Dubai" font-weight="500"><tspan x="0" y="0">11/24</tspan></text>
+  <text id="_100_" data-name="100%" transform="translate(0 22)" fill="#919191" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">100%</tspan></text>
+  <text id="_75_" data-name="75%" transform="translate(9.433 71)" fill="#919191" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">75%</tspan></text>
+  <text id="_50_" data-name="50%" transform="translate(9.433 120)" fill="#919191" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">50%</tspan></text>
+  <text id="_25_" data-name="25%" transform="translate(9.433 169)" fill="#919191" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">25%</tspan></text>
+  <text id="_0_" data-name="0%" transform="translate(26.725 218)" fill="#919191" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">0%</tspan></text>
+  <circle id="Ellipse_29" data-name="Ellipse 29" cx="6" cy="6" r="6" transform="translate(187.199 158.5)" fill="#8358e8"/>
+  <line id="Line_65" data-name="Line 65" y1="45" x2="94" transform="translate(99.631 164.83)" fill="none" stroke="#8358e8" stroke-width="5"/>
+  <path id="Path_122" data-name="Path 122" d="M4218.694,8648.5l100.9-46.337,278.491-52.185L5059,8502.737l168.571-47.674" transform="translate(-4118.869 -8438.67)" fill="none" stroke="#707070" stroke-width="3" stroke-dasharray="20" opacity="0.42"/>
+  <circle id="Ellipse_30" data-name="Ellipse 30" cx="11" cy="11" r="11" transform="translate(16.131 282.33)" fill="#8358e8"/>
+  <text id="Your_Learning" data-name="Your Learning" transform="translate(46.131 300.33)" fill="#8358e8" font-size="17" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Your Learning</tspan></text>
+  <circle id="Ellipse_31" data-name="Ellipse 31" cx="11" cy="11" r="11" transform="translate(16.131 314.33)" fill="#7b7b7b"/>
+  <text id="Quizzy_s_Smart_Projection" data-name="Quizzy&apos;s Smart Projection" transform="translate(46.131 332.33)" fill="#7b7b7b" font-size="17" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Quizzy&apos;s Smart Projection</tspan></text>
+  <g id="Ellipse_23" data-name="Ellipse 23" transform="translate(264.131 315.33)" fill="#fff" stroke="#707070" stroke-width="2">
+    <circle cx="10.5" cy="10.5" r="10.5" stroke="none"/>
+    <circle cx="10.5" cy="10.5" r="9.5" fill="none"/>
+  </g>
+  <text id="_" data-name="?" transform="translate(271.131 331.33)" fill="#5b5b5b" font-size="16" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">?</tspan></text>
+  <rect id="Rectangle_217" data-name="Rectangle 217" width="689" height="53" rx="10" transform="translate(262.131 249.33)" fill="#272727"/>
+  <text id="Quizzy_s_Smart_Projection_projects_your_recall_abilities_based_on_data_from_other_students" data-name="Quizzy&apos;s Smart Projection projects your recall abilities based on data from other students" transform="translate(291.131 284.33)" fill="#fff" font-size="18" font-family="Dubai-Regular, Dubai"><tspan x="0" y="0">Quizzy&apos;s Smart Projection projects your recall abilities based on data from other students</tspan></text>
+  <path id="Polygon_2" data-name="Polygon 2" d="M8.4,4.484a3,3,0,0,1,5.193,0l5.8,10.012A3,3,0,0,1,16.8,19H5.2a3,3,0,0,1-2.6-4.5Z" transform="translate(286.131 316.33) rotate(180)" fill="#272727"/>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_363)">
+    <rect id="Rectangle_363-2" data-name="Rectangle 363" width="70" height="33" rx="10" transform="translate(299.13 310.33)" fill="url(#radial-gradient)"/>
+  </g>
+  <text id="PLUS" transform="translate(315.131 333.33)" fill="#fff" font-size="16" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">PLUS</tspan></text>
+</svg>

@@ -1,7 +1,8 @@
-import { ACTIVATE_PLAN } from "../actions/types";
+import { ACTIVATE_PLAN, CHANGE_PRICING } from "../actions/types";
 
 const initialState = {
   plan: null,
+  pricing: "monthly",
 };
 
 export default function planReducer(state = initialState, action) {
@@ -10,6 +11,12 @@ export default function planReducer(state = initialState, action) {
       return {
         ...state,
         plan: action.payload,
+      };
+
+    case CHANGE_PRICING:
+      return {
+        ...state,
+        pricing: action.payload,
       };
 
     default:

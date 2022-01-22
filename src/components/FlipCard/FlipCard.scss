@@ -1,0 +1,109 @@
+.flip {
+  cursor: pointer;
+  position: relative;
+  width: 60%;
+  height: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  h4 {
+    font-size: 2rem;
+    font-weight: 500;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  > .front,
+  > .back {
+    position: relative;
+    display: flex;
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition-duration: 0.8s;
+    transition-property: transform, opacity;
+  }
+  > .front {
+    transform: rotateX(0deg);
+  }
+  > .back {
+    position: absolute;
+    opacity: 0;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    transform: rotateX(-180deg);
+  }
+  &:hover {
+    > .front {
+      transform: rotateX(180deg);
+    }
+    > .back {
+      opacity: 1;
+      transform: rotateX(0deg);
+    }
+  }
+  &.flip-vertical {
+    > .back {
+      transform: rotateX(-180deg);
+    }
+    &:hover {
+      > .front {
+        transform: rotateX(180deg);
+      }
+      > .back {
+        transform: rotateX(0deg);
+      }
+    }
+  }
+}
+
+// custom
+.flip {
+  position: relative;
+  display: inline-block;
+  margin-right: 2px;
+  margin-bottom: 1em;
+  > .front,
+  > .back {
+    text-align: center;
+    width: 100%;
+    height: 25rem;
+    display: block;
+    color: white;
+    background-size: cover !important;
+    background-position: center !important;
+    padding: 1em 2em;
+    background: white;
+    border-radius: 10px;
+    padding: 3rem;
+    background-color: white;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.16);
+    border-radius: 1rem;
+    p {
+      width: 85%;
+      text-align: left;
+      font-size: 1.3rem;
+      line-height: 250%;
+      color: black;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}
+
+.text-shadow {
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.04), 2px 2px rgba(0, 0, 0, 0.04),
+    3px 3px rgba(0, 0, 0, 0.04), 4px 4px rgba(0, 0, 0, 0.04),
+    0.125rem 0.125rem rgba(0, 0, 0, 0.04), 6px 6px rgba(0, 0, 0, 0.04),
+    7px 7px rgba(0, 0, 0, 0.04), 8px 8px rgba(0, 0, 0, 0.04),
+    9px 9px rgba(0, 0, 0, 0.04), 0.3125rem 0.3125rem rgba(0, 0, 0, 0.04),
+    11px 11px rgba(0, 0, 0, 0.04), 12px 12px rgba(0, 0, 0, 0.04),
+    13px 13px rgba(0, 0, 0, 0.04), 14px 14px rgba(0, 0, 0, 0.04),
+    0.625rem 0.625rem rgba(0, 0, 0, 0.04), 16px 16px rgba(0, 0, 0, 0.04),
+    17px 17px rgba(0, 0, 0, 0.04), 18px 18px rgba(0, 0, 0, 0.04),
+    19px 19px rgba(0, 0, 0, 0.04), 1.25rem 1.25rem rgba(0, 0, 0, 0.04);
+}

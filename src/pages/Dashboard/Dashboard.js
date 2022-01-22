@@ -2,19 +2,104 @@ import React from "react";
 import "./Dashboard.scss";
 import Navbar from "../../components/Navbar/Navbar";
 import UserInfo from "../../components/UserInfo/UserInfo";
+import { useState, useEffect } from "react";
+import DoughnutChart from "../../components/DoughnutChart/DoughnutChart";
+import LineChart from "../../components/LineChart/LineChart";
+import { VerticalBarChart } from "../../components/VerticalBarChart/VerticalBarChart";
+
+import { Link } from "react-router-dom";
+
+import * as configs from "../../DATA/chart_configs/dashboard.js";
 
 function Dashboard() {
+  const [streak] = useState(2);
+  const [pending] = useState(2);
+  const [completed] = useState(2);
+  const [currentStreak] = useState(true);
+  const [displayDates, setDisplayDates] = useState([]);
+  const [previousDates, setPreviousDates] = useState([]);
+  const [newRowIndex] = useState([6, 13, 20, 27, 34]);
+  const [todayIndex, setTodayIndex] = useState();
+  const [alert] = useState(
+    "Quizzy will be going under maintenance from 7-12PM EST on Thursday. Thanks for your cooperation."
+  );
+
+  let months = {
+    January: 31,
+    February: 28,
+    March: 31,
+    April: 30,
+    May: 31,
+    June: 30,
+    July: 31,
+    August: 31,
+    September: 30,
+    October: 31,
+    November: 30,
+    December: 31,
+  };
+
+  const month = new Date().toLocaleString("en-US", {
+    month: "long",
+  });
+  const year = new Date().getFullYear();
+  const day = new Date(`${month} 1, ${year}`).getDay();
+  const today = new Date().getDate();
+  let tempDates = [];
+
+  const calculateCalendar = () => {
+    if ((0 === year % 4 && 0 !== year % 100) || 0 === year % 400) {
+      months["February"] = 29;
+    }
+
+    const keys = Object.keys(months);
+    const index = keys.indexOf(month);
+
+    let previousMonth = "";
+    if (month === "January") {
+      previousMonth = "December";
+    } else {
+      previousMonth = keys[index - 1];
+    }
+
+    for (
+      let i = months[previousMonth] - day + 1;
+      i <= months[previousMonth];
+      i++
+    ) {
+      tempDates.push(i);
+      setPreviousDates((previousDates) => [...previousDates, i]);
+    }
+
+    const remaining = 35 - displayDates.length;
+    let j = 1;
+    while (j <= remaining && j <= months[month]) {
+      // eslint-disable-next-line no-loop-func
+      tempDates.push(j);
+      j++;
+    }
+
+    setTodayIndex(tempDates.indexOf(today));
+
+    setDisplayDates(tempDates);
+  };
+
+  useEffect(() => {
+    calculateCalendar();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   return (
     <main>
       <Navbar />
       <section className="dashboard">
         <div className="content">
-          <div className="warning">
-            <h2>
-              Quizzy will be going under maintenance from 7-12PM EST on
-              Thursday. Thanks for your cooperation.
-            </h2>
-          </div>
+          {alert && (
+            <div className="warning">
+              <h2>{alert}</h2>
+            </div>
+          )}
+
           <h1>Hi Script</h1>
           <section className="infoBar">
             <div className="infoBox">
@@ -41,7 +126,7 @@ function Dashboard() {
               </div>
               <div className="infoContent">
                 <h3>Streak</h3>
-                <h2>2</h2>
+                <h2>{streak}</h2>
               </div>
             </div>
             <div className="infoBox">
@@ -73,7 +158,7 @@ function Dashboard() {
               </div>
               <div className="infoContent">
                 <h3>Pending</h3>
-                <h2>2</h2>
+                <h2>{pending}</h2>
               </div>
             </div>
             <div className="infoBox">
@@ -110,7 +195,7 @@ function Dashboard() {
               </div>
               <div className="infoContent">
                 <h3>Completed</h3>
-                <h2>2</h2>
+                <h2>{completed}</h2>
               </div>
             </div>
             <div className="infoBox">
@@ -140,6 +225,136 @@ function Dashboard() {
               <div className="infoContent">
                 <h3>Friends Online</h3>
                 <h2>2</h2>
+              </div>
+            </div>
+          </section>
+          <section className="calendar">
+            <h1>My Calendar</h1>
+            <section className="container">
+              <div className="calendarBox">
+                <h2>
+                  {month} {year}
+                </h2>
+                <table>
+                  <thead>
+                    <tr>
+                      <th>S</th>
+                      <th>M</th>
+                      <th>T</th>
+                      <th>W</th>
+                      <th>T</th>
+                      <th>F</th>
+                      <th>S</th>
+                    </tr>
+                  </thead>
+
+                  <tbody className={currentStreak ? "streak" : "nostreak"}>
+                    {displayDates.map((date, index) => (
+                      <>
+                        {newRowIndex.includes(index) && (
+                          <tr
+                            cellspacing="0"
+                            cellpadding="0"
+                            className={
+                              todayIndex <
+                                newRowIndex[newRowIndex.indexOf(index)] &&
+                              todayIndex <
+                                newRowIndex[newRowIndex.indexOf(index) + 1]
+                                ? "current"
+                                : null
+                            }
+                          >
+                            {displayDates.map((d, newIndex) => (
+                              <>
+                                {newIndex <= index && newIndex > index - 7 && (
+                                  <th
+                                    className={
+                                      newIndex === todayIndex
+                                        ? "dates currentDay"
+                                        : "dates"
+                                    }
+                                    style={
+                                      newIndex < previousDates.length
+                                        ? { color: "#CECECE" }
+                                        : null
+                                    }
+                                  >
+                                    {d}
+                                  </th>
+                                )}
+                              </>
+                            ))}
+                          </tr>
+                        )}
+                      </>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+              {currentStreak ? (
+                <div className="streakContainer">
+                  <img
+                    src="images/streak.svg"
+                    alt="Streak"
+                    width={250}
+                    height={250}
+                  />
+                  <h1>Superb!</h1>
+                  <h3>You saved your streak and kept the fire burning!</h3>
+                </div>
+              ) : (
+                <div className="streakContainer">
+                  <img
+                    src="images/nostreak.svg"
+                    alt="No Streak"
+                    width={250}
+                    height={250}
+                  />
+                  <h3>Study one set to continue your streak</h3>
+                </div>
+              )}
+            </section>
+          </section>
+          <section className="studyTime">
+            <h1>Today's Study Time</h1>
+            <div className="doughnutContainer">
+              <div>
+                <DoughnutChart config={configs.donutChartOne} />
+              </div>
+              <div>
+                <DoughnutChart config={configs.donutChartTwo} />
+              </div>
+            </div>
+          </section>
+          <section className="studyTime">
+            <h1>Today's Studying</h1>
+            <LineChart width={400} height={200} />
+          </section>
+          <section className="studyTime">
+            <h1>My Recall Sessions</h1>
+            <VerticalBarChart config={configs.verticalBarConfig} />
+          </section>
+          <section className="moreOptions">
+            <div className="box">
+              <h3>Most Difficult Terms</h3>
+              <div className="plus">
+                <h4>
+                  Upgrade to <strong>Quizzy+ </strong>for more features.
+                </h4>
+                <Link to="/quizzyplus" className="plusLink">
+                  Get Quizzy+
+                </Link>
+              </div>
+            </div>
+            <div className="box">
+              <h3>Easiest Terms</h3>
+              <div className="plus">
+                <h4>
+                  Upgrade to <strong>Quizzy+ </strong>for more features.
+                </h4>
+                <Link to="/quizzyplus" className="plusLink">
+                  Get Quizzy+
+                </Link>
               </div>
             </div>
           </section>

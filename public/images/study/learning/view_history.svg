@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1356.79" height="419.426" viewBox="0 0 1356.79 419.426">
+  <line id="Line_98" data-name="Line 98" x2="1262.397" transform="translate(93.393 276.556)" fill="none" stroke="#707070" stroke-width="3" opacity="0.24"/>
+  <line id="Line_99" data-name="Line 99" x2="1262.397" transform="translate(93.393 212.312)" fill="none" stroke="#707070" stroke-width="3" opacity="0.24"/>
+  <line id="Line_100" data-name="Line 100" x2="1262.397" transform="translate(93.393 148.068)" fill="none" stroke="#707070" stroke-width="3" opacity="0.24"/>
+  <line id="Line_101" data-name="Line 101" x2="1262.397" transform="translate(93.393 83.824)" fill="none" stroke="#707070" stroke-width="3" opacity="0.24"/>
+  <line id="Line_102" data-name="Line 102" x2="1262.397" y2="2" transform="translate(93.393 19.758)" fill="none" stroke="#ddd" stroke-width="3"/>
+  <text id="Today" transform="translate(1294.79 374.145)" fill="#919191" font-size="25" font-family="Dubai-Medium, Dubai" font-weight="500"><tspan x="0" y="0">Today</tspan></text>
+  <text id="_8pm" data-name="8pm" transform="translate(1 92.139)" fill="#919191" font-size="25" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">8pm</tspan></text>
+  <text id="_3pm" data-name="3pm" transform="translate(0 157.277)" fill="#919191" font-size="25" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">3pm</tspan></text>
+  <text id="_10am" data-name="10am" transform="translate(0 222.416)" fill="#919191" font-size="25" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">10am</tspan></text>
+  <text id="_5am" data-name="5am" transform="translate(0 287.555)" fill="#919191" font-size="25" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">5am</tspan></text>
+  <text id="_12pm" data-name="12pm" transform="translate(1 349.123)" fill="#919191" font-size="25" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">12pm</tspan></text>
+  <circle id="Ellipse_57" data-name="Ellipse 57" cx="8.25" cy="8.25" r="8.25" transform="translate(110.949 204.062)" fill="#8358e8"/>
+  <circle id="Ellipse_58" data-name="Ellipse 58" cx="11" cy="11" r="11" transform="translate(9.699 397.426)" fill="#8358e8"/>
+  <text id="Your_Views" data-name="Your Views" transform="translate(39.699 415.426)" fill="#8358e8" font-size="17" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Your Views</tspan></text>
+  <text id="_11_3" data-name="11/3" transform="translate(92.699 383.426)" fill="#919191" font-size="25" font-family="Dubai-Medium, Dubai" font-weight="500"><tspan x="0" y="0">11/3</tspan></text>
+  <line id="Line_103" data-name="Line 103" x2="1262.397" transform="translate(93.393 338.623)" fill="none" stroke="#707070" stroke-width="3" opacity="0.24"/>
+  <text id="_12pm-2" data-name="12pm" transform="translate(0 27)" fill="#919191" font-size="25" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">12pm</tspan></text>
+  <circle id="Ellipse_59" data-name="Ellipse 59" cx="8.25" cy="8.25" r="8.25" transform="translate(127.449 228.416)" fill="#8358e8"/>
+  <circle id="Ellipse_60" data-name="Ellipse 60" cx="8.25" cy="8.25" r="8.25" transform="translate(127.449 187.563)" fill="#8358e8"/>
+  <circle id="Ellipse_61" data-name="Ellipse 61" cx="8.25" cy="8.25" r="8.25" transform="translate(143.949 179.01)" fill="#8358e8"/>
+  <circle id="Ellipse_62" data-name="Ellipse 62" cx="8.25" cy="8.25" r="8.25" transform="translate(152.199 211.916)" fill="#8358e8"/>
+  <circle id="Ellipse_63" data-name="Ellipse 63" cx="8.25" cy="8.25" r="8.25" transform="translate(127.449 154.26)" fill="#8358e8"/>
+  <circle id="Ellipse_64" data-name="Ellipse 64" cx="8.25" cy="8.25" r="8.25" transform="translate(135.699 293.555)" fill="#8358e8"/>
+  <circle id="Ellipse_65" data-name="Ellipse 65" cx="8.25" cy="8.25" r="8.25" transform="translate(244.699 195.416)" fill="#8358e8"/>
+  <circle id="Ellipse_66" data-name="Ellipse 66" cx="8.25" cy="8.25" r="8.25" transform="translate(180.699 187.563)" fill="#8358e8"/>
+  <circle id="Ellipse_67" data-name="Ellipse 67" cx="8.25" cy="8.25" r="8.25" transform="translate(205.449 197.99)" fill="#8358e8"/>
+  <circle id="Ellipse_68" data-name="Ellipse 68" cx="8.25" cy="8.25" r="8.25" transform="translate(205.449 163.277)" fill="#8358e8"/>
+  <circle id="Ellipse_69" data-name="Ellipse 69" cx="8.25" cy="8.25" r="8.25" transform="translate(236.449 170.76)" fill="#8358e8"/>
+  <circle id="Ellipse_70" data-name="Ellipse 70" cx="8.25" cy="8.25" r="8.25" transform="translate(252.949 137.76)" fill="#8358e8"/>
+  <circle id="Ellipse_71" data-name="Ellipse 71" cx="8.25" cy="8.25" r="8.25" transform="translate(283.949 171.527)" fill="#8358e8"/>
+  <circle id="Ellipse_72" data-name="Ellipse 72" cx="8.25" cy="8.25" r="8.25" transform="translate(252.949 137.76)" fill="#8358e8"/>
+  <circle id="Ellipse_73" data-name="Ellipse 73" cx="8.25" cy="8.25" r="8.25" transform="translate(298.449 197.99)" fill="#8358e8"/>
+  <circle id="Ellipse_74" data-name="Ellipse 74" cx="8.25" cy="8.25" r="8.25" transform="translate(314.949 137.76)" fill="#8358e8"/>
+  <circle id="Ellipse_75" data-name="Ellipse 75" cx="8.25" cy="8.25" r="8.25" transform="translate(345.449 163.277)" fill="#8358e8"/>
+  <circle id="Ellipse_76" data-name="Ellipse 76" cx="8.25" cy="8.25" r="8.25" transform="translate(385.449 138.527)" fill="#8358e8"/>
+  <circle id="Ellipse_77" data-name="Ellipse 77" cx="8.25" cy="8.25" r="8.25" transform="translate(729.449 138.527)" fill="#8358e8"/>
+  <circle id="Ellipse_78" data-name="Ellipse 78" cx="8.25" cy="8.25" r="8.25" transform="translate(648.449 228.416)" fill="#8358e8"/>
+  <circle id="Ellipse_79" data-name="Ellipse 79" cx="8.25" cy="8.25" r="8.25" transform="translate(447.449 145.891)" fill="#8358e8"/>
+  <circle id="Ellipse_80" data-name="Ellipse 80" cx="8.25" cy="8.25" r="8.25" transform="translate(474.449 98.891)" fill="#8358e8"/>
+  <circle id="Ellipse_81" data-name="Ellipse 81" cx="8.25" cy="8.25" r="8.25" transform="translate(535.449 110.891)" fill="#8358e8"/>
+  <circle id="Ellipse_82" data-name="Ellipse 82" cx="8.25" cy="8.25" r="8.25" transform="translate(486.449 180.746)" fill="#8358e8"/>
+  <circle id="Ellipse_83" data-name="Ellipse 83" cx="8.25" cy="8.25" r="8.25" transform="translate(558.699 163.277)" fill="#8358e8"/>
+  <circle id="Ellipse_84" data-name="Ellipse 84" cx="8.25" cy="8.25" r="8.25" transform="translate(656.699 99.928)" fill="#8358e8"/>
+  <circle id="Ellipse_85" data-name="Ellipse 85" cx="8.25" cy="8.25" r="8.25" transform="translate(808.699 56.889)" fill="#8358e8"/>
+  <circle id="Ellipse_86" data-name="Ellipse 86" cx="8.25" cy="8.25" r="8.25" transform="translate(939.699 139.818)" fill="#8358e8"/>
+</svg>

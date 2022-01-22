@@ -1,0 +1,35 @@
+.calendarBox {
+  display: flex;
+  flex-direction: column;
+  padding-inline: 1rem;
+  margin-bottom: 2em;
+
+  table {
+    border-spacing: 0 15px;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+    font-family: "Segoe UI Regular", sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+  }
+
+  .day {
+    font-family: "Segoe UI Regular", sans-serif;
+    color: #7d7d7d;
+    padding: 0.7rem;
+    padding-inline: 0.9rem;
+  }
+
+  .bell {
+    border-radius: 15px;
+    background-color: #ddcfff;
+    padding: 0.3rem;
+
+    img {
+      height: 1.4rem;
+    }
+  }
+}

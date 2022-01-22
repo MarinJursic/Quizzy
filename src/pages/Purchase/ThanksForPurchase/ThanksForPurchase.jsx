@@ -6,6 +6,9 @@ import { useDispatch, useSelector } from "react-redux";
 function ThanksForPurchase() {
   const dispatch = useDispatch();
   const plan = useSelector((state) => state.plan.plan);
+  const pricing = useSelector((state) => state.plan.pricing);
+
+  const price = pricing === "yearly" ? plan.priceYearly : plan.priceMonthly;
 
   const monthNames = [
     "January",
@@ -23,7 +26,11 @@ function ThanksForPurchase() {
   ];
 
   let future = new Date();
-  future.setDate(future.getDate() + 30);
+  if (pricing === "yearly") {
+    future.setFullYear(future.getFullYear() + 1);
+  } else {
+    future.setDate(future.getDate() + 30);
+  }
 
   return (
     <div className="thanks_for_purchase">
@@ -94,8 +101,10 @@ function ThanksForPurchase() {
               <h2>Order Receipt</h2>
             </div>
             <div className="product_details">
-              <h3>Quizzy+ {plan.plan} (monthly)</h3>
-              <h3 className="price">${plan.priceMonthly}</h3>
+              <h3>
+                Quizzy+ {plan.plan} ({pricing})
+              </h3>
+              <h3 className="price">${price}</h3>
             </div>
             <p>
               Next payment is due on {monthNames[future.getMonth()]}{" "}
@@ -108,7 +117,7 @@ function ThanksForPurchase() {
             </div>
             <div className="total">
               <h3 className="totalText">Total</h3>
-              <h3 className="price">${plan.priceMonthly - 2.5}</h3>
+              <h3 className="price">${price - 2.5}</h3>
             </div>
             <div className="total_savings">
               <p>Your total savings amount:</p>
@@ -116,7 +125,7 @@ function ThanksForPurchase() {
             </div>
             <div className="paid">
               <h3 className="totalText">Paid</h3>
-              <h3 className="price">-${plan.priceMonthly - 2.5}</h3>
+              <h3 className="price">-${price - 2.5}</h3>
             </div>
             <div className="total_due">
               <h3 className="totalText">Total Due</h3>

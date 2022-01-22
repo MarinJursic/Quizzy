@@ -10,6 +10,9 @@ import { useDispatch, useSelector } from "react-redux";
 function Purchase() {
   const dispatch = useDispatch();
   const plan = useSelector((state) => state.plan.plan);
+  const pricing = useSelector((state) => state.plan.pricing);
+
+  const price = pricing === "yearly" ? plan.priceYearly : plan.priceMonthly;
 
   const monthNames = [
     "January",
@@ -27,7 +30,11 @@ function Purchase() {
   ];
 
   let future = new Date();
-  future.setDate(future.getDate() + 30);
+  if (pricing === "yearly") {
+    future.setFullYear(future.getFullYear() + 1);
+  } else {
+    future.setDate(future.getDate() + 30);
+  }
 
   const [cards, setCards] = useState([
     {
@@ -127,7 +134,6 @@ function Purchase() {
 
   useEffect(() => {
     setCard(validateCardNumber());
-    console.log(card);
   }, [creditNum]);
 
   return (
@@ -217,7 +223,7 @@ function Purchase() {
 
                 {/* Adding Card Input */}
 
-                {addingCard && (
+                {addingCard && selectedMethod === 0 && (
                   <div className="adding_card_input">
                     <h3>Add New Card</h3>
                     <div className="adding_card_cards">
@@ -308,9 +314,11 @@ function Purchase() {
                 <h3>Order Summary</h3>
                 <div className="order_summary_row">
                   <div className="order_summary_bill">
-                    <h4>Quizzy+ {plan.plan} (monthly)</h4>
+                    <h4>
+                      Quizzy+ {plan.plan} ({pricing})
+                    </h4>
                     <p>@script_ing will receive Quizzy+</p>
-                    <h3>${plan.priceMonthly}</h3>
+                    <h3>${price}</h3>
                     <Link to="/quizzyplus" className="change">
                       CHANGE
                     </Link>
@@ -327,7 +335,7 @@ function Purchase() {
                       </div>
                     )}
 
-                    <Link to="/purchase/thanks">
+                    <Link to="/quizzyplus/purchase/thanks">
                       <button>Pay now</button>
                     </Link>
                   </div>
@@ -354,8 +362,10 @@ function Purchase() {
               <h2>Order Details</h2>
             </div>
             <div className="product_details">
-              <h3>Quizzy+ {plan.plan} (monthly)</h3>
-              <h3 className="price">${plan.priceMonthly}</h3>
+              <h3>
+                Quizzy+ {plan.plan} ({pricing})
+              </h3>
+              <h3 className="price">${price}</h3>
             </div>
             <p>
               Next payment is due on {monthNames[future.getMonth()]}{" "}
@@ -368,7 +378,7 @@ function Purchase() {
             </div>
             <div className="total">
               <h3 className="totalText">Total</h3>
-              <h3 className="price">${plan.priceMonthly - 2.5}</h3>
+              <h3 className="price">${price - 2.5}</h3>
             </div>
             <div className="total_savings">
               <p>Your total savings amount:</p>

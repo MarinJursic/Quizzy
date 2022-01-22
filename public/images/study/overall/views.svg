@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="814.91" height="266.49" viewBox="0 0 814.91 266.49">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4c72e6"/>
+      <stop offset="1" stop-color="#8358e8"/>
+    </linearGradient>
+  </defs>
+  <line id="Line_82" data-name="Line 82" x2="768.306" transform="translate(46.601 208.99)" fill="none" stroke="#707070" stroke-width="3" opacity="0.24"/>
+  <line id="Line_83" data-name="Line 83" x2="768.306" transform="translate(46.601 159.99)" fill="none" stroke="#707070" stroke-width="3" opacity="0.24"/>
+  <line id="Line_84" data-name="Line 84" x2="768.306" transform="translate(46.601 110.99)" fill="none" stroke="#707070" stroke-width="3" opacity="0.24"/>
+  <line id="Line_85" data-name="Line 85" x2="768.306" transform="translate(46.601 61.99)" fill="none" stroke="#707070" stroke-width="3" opacity="0.24"/>
+  <line id="Line_86" data-name="Line 86" x2="768.306" y2="2" transform="translate(46.601 12.99)" fill="none" stroke="#ddd" stroke-width="3"/>
+  <text id="Mon" transform="translate(159.02 252.49)" fill="#919191" font-size="25" font-family="Dubai-Medium, Dubai" font-weight="500"><tspan x="0" y="0">Mon</tspan></text>
+  <text id="Tues" transform="translate(257.202 250.66)" fill="#919191" font-size="25" font-family="Dubai-Medium, Dubai" font-weight="500"><tspan x="0" y="0">Tues</tspan></text>
+  <text id="Wed" transform="translate(342.936 250.66)" fill="#919191" font-size="25" font-family="Dubai-Medium, Dubai" font-weight="500"><tspan x="0" y="0">Wed</tspan></text>
+  <text id="Thurs" transform="translate(431.781 250.66)" fill="#919191" font-size="25" font-family="Dubai-Medium, Dubai" font-weight="500"><tspan x="0" y="0">Thurs</tspan></text>
+  <text id="Fri" transform="translate(545.04 250.66)" fill="#919191" font-size="25" font-family="Dubai-Medium, Dubai" font-weight="500"><tspan x="0" y="0">Fri</tspan></text>
+  <text id="Sat" transform="translate(650.87 250.66)" fill="#919191" font-size="25" font-family="Dubai-Medium, Dubai" font-weight="500"><tspan x="0" y="0">Sat</tspan></text>
+  <text id="Sun" transform="translate(758.023 250.66)" fill="#919191" font-size="25" font-family="Dubai-Medium, Dubai" font-weight="500"><tspan x="0" y="0">Sun</tspan></text>
+  <text id="_300" data-name="300" transform="translate(1.5 22)" fill="#919191" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">300</tspan></text>
+  <text id="_200" data-name="200" transform="translate(0 70.83)" fill="#919191" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">200</tspan></text>
+  <text id="_100" data-name="100" transform="translate(1.5 119.66)" fill="#919191" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">100</tspan></text>
+  <text id="_50" data-name="50" transform="translate(3 168.49)" fill="#919191" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">50</tspan></text>
+  <text id="_0" data-name="0" transform="translate(8.5 217.32)" fill="#919191" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">0</tspan></text>
+  <path id="Rectangle_259" data-name="Rectangle 259" d="M10,0H63A10,10,0,0,1,73,10V147a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V10A10,10,0,0,1,10,0Z" transform="translate(144.906 61.82)" fill="url(#linear-gradient)"/>
+  <path id="Rectangle_260" data-name="Rectangle 260" d="M10,0H63A10,10,0,0,1,73,10V51a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V10A10,10,0,0,1,10,0Z" transform="translate(244.906 157.99)" fill="url(#linear-gradient)"/>
+  <path id="Rectangle_261" data-name="Rectangle 261" d="M10,0H63A10,10,0,0,1,73,10V98a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V10A10,10,0,0,1,10,0Z" transform="translate(332.906 108.99)" fill="url(#linear-gradient)"/>
+  <path id="Rectangle_262" data-name="Rectangle 262" d="M10,0H63A10,10,0,0,1,73,10v4a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V10A10,10,0,0,1,10,0Z" transform="translate(426.906 192.99)" fill="url(#linear-gradient)"/>
+  <path id="Rectangle_263" data-name="Rectangle 263" d="M10,0H63A10,10,0,0,1,73,10V62a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V10A10,10,0,0,1,10,0Z" transform="translate(626.906 144.99)" fill="url(#linear-gradient)"/>
+  <path id="Rectangle_264" data-name="Rectangle 264" d="M10,0H63A10,10,0,0,1,73,10V81a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V10A10,10,0,0,1,10,0Z" transform="translate(741.906 125.99)" fill="url(#linear-gradient)"/>
+</svg>

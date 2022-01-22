@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1362.225" height="267" viewBox="0 0 1362.225 267">
+  <line id="Line_77" data-name="Line 77" x2="1262.397" transform="translate(99.826 209.5)" fill="none" stroke="#707070" stroke-width="3" opacity="0.24"/>
+  <line id="Line_78" data-name="Line 78" x2="1262.397" transform="translate(99.826 160.5)" fill="none" stroke="#707070" stroke-width="3" opacity="0.24"/>
+  <line id="Line_79" data-name="Line 79" x2="1262.397" transform="translate(99.826 111.5)" fill="none" stroke="#707070" stroke-width="3" opacity="0.24"/>
+  <line id="Line_80" data-name="Line 80" x2="1262.397" transform="translate(99.826 62.5)" fill="none" stroke="#707070" stroke-width="3" opacity="0.24"/>
+  <line id="Line_81" data-name="Line 81" x2="1262.397" y2="2" transform="translate(99.826 13.5)" fill="none" stroke="#ddd" stroke-width="3"/>
+  <text id="Day_1" data-name="Day 1" transform="translate(212.245 253)" fill="#919191" font-size="25" font-family="Dubai-Medium, Dubai" font-weight="500"><tspan x="0" y="0">Day 1</tspan></text>
+  <text id="Day_2" data-name="Day 2" transform="translate(373.427 253)" fill="#919191" font-size="25" font-family="Dubai-Medium, Dubai" font-weight="500"><tspan x="0" y="0">Day 2</tspan></text>
+  <text id="Day_3" data-name="Day 3" transform="translate(534.609 253)" fill="#919191" font-size="25" font-family="Dubai-Medium, Dubai" font-weight="500"><tspan x="0" y="0">Day 3</tspan></text>
+  <text id="Day_4" data-name="Day 4" transform="translate(695.792 253)" fill="#919191" font-size="25" font-family="Dubai-Medium, Dubai" font-weight="500"><tspan x="0" y="0">Day 4</tspan></text>
+  <text id="Day_5" data-name="Day 5" transform="translate(884.161 253)" fill="#919191" font-size="25" font-family="Dubai-Medium, Dubai" font-weight="500"><tspan x="0" y="0">Day 5</tspan></text>
+  <text id="Day_6" data-name="Day 6" transform="translate(1072.531 253)" fill="#919191" font-size="25" font-family="Dubai-Medium, Dubai" font-weight="500"><tspan x="0" y="0">Day 6</tspan></text>
+  <text id="Day_7" data-name="Day 7" transform="translate(1276.545 253)" fill="#919191" font-size="25" font-family="Dubai-Medium, Dubai" font-weight="500"><tspan x="0" y="0">Day 7</tspan></text>
+  <text id="_100_" data-name="100%" transform="translate(0 22)" fill="#919191" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">100%</tspan></text>
+  <text id="_75_" data-name="75%" transform="translate(9.433 71)" fill="#919191" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">75%</tspan></text>
+  <text id="_50_" data-name="50%" transform="translate(9.433 120)" fill="#919191" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">50%</tspan></text>
+  <text id="_25_" data-name="25%" transform="translate(9.433 169)" fill="#919191" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">25%</tspan></text>
+  <text id="_0_" data-name="0%" transform="translate(26.725 218)" fill="#919191" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">0%</tspan></text>
+  <path id="Path_129" data-name="Path 129" d="M4218.695,8648.5l121.207-46.337,334.527-52.185,553.652-47.241,202.49-47.674" transform="translate(-4118.869 -8438.67)" fill="none" stroke="#707070" stroke-width="3" stroke-dasharray="20" opacity="0.42"/>
+</svg>

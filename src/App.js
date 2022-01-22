@@ -21,6 +21,7 @@ const ThanksForPurchase = lazy(() =>
 );
 const Login = lazy(() => import("./pages/Login/Login"));
 const Signup = lazy(() => import("./pages/Signup/Signup"));
+const Study = lazy(() => import("./pages/Study/Study"));
 const NotFound = lazy(() => import("./pages/NotFound/NotFound"));
 
 function App() {
@@ -33,11 +34,16 @@ function App() {
             <Route exact path="/" element={<Navigate to="/dashboard" />} />
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/quizzyplus" element={<QuizzyPlus />} />
-            <Route path="/purchase" element={<Purchase />} />
-            <Route path="/purchase/thanks" element={<ThanksForPurchase />} />
+            <Route path="/quizzyplus/purchase" element={<Purchase />} />
+            <Route
+              path="/quizzyplus/purchase/thanks"
+              element={<ThanksForPurchase />}
+            />
             <Route path="/login" element={<Login />} />
             <Route path="/signup" element={<Signup />} />
-            <Route path="*" element={<NotFound />} />
+            <Route path="/study" element={<Study />} />
+            <Route exact path="*" element={<Navigate to="/404" />} />
+            <Route path="/404" element={<NotFound />} />
           </Routes>
         </Suspense>
       </Router>

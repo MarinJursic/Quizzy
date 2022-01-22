@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="86.689" height="86.689" viewBox="0 0 86.689 86.689">
+  <defs>
+    <filter id="Rectangle_252" x="0" y="0" width="86.689" height="86.689" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-color="#8358e8"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_52" data-name="Group 52" transform="translate(-758.655 -4104.811)">
+    <g id="Group_51" data-name="Group 51">
+      <g transform="matrix(1, 0, 0, 1, 758.66, 4104.81)" filter="url(#Rectangle_252)">
+        <rect id="Rectangle_252-2" data-name="Rectangle 252" width="41.689" height="41.689" rx="10" transform="translate(22.5 22.5)" fill="#6d4bbb"/>
+      </g>
+      <path id="Polygon_10" data-name="Polygon 10" d="M7.5,0,15,13H0Z" transform="translate(810 4181) rotate(180)" fill="#6d4bbb"/>
+      <g id="sentiment_satisfied_black_24dp" transform="translate(786 4132)">
+        <path id="Path_48" data-name="Path 48" d="M0,0H33V33H0Z" fill="none"/>
+        <circle id="Ellipse_21" data-name="Ellipse 21" cx="2" cy="2" r="2" transform="translate(19 11)" fill="#fff"/>
+        <circle id="Ellipse_22" data-name="Ellipse 22" cx="2" cy="2" r="2" transform="translate(10 11)" fill="#fff"/>
+        <path id="Path_49" data-name="Path 49" d="M15.75,21.25a5.5,5.5,0,0,1-4.744-2.75H8.71a7.556,7.556,0,0,0,14.08,0h-2.3a5.5,5.5,0,0,1-4.744,2.75ZM15.736,2A13.75,13.75,0,1,0,29.5,15.75,13.743,13.743,0,0,0,15.736,2Zm.014,24.75a11,11,0,1,1,11-11A11,11,0,0,1,15.75,26.75Z" transform="translate(0.75 0.75)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

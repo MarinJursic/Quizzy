@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="170" height="170" viewBox="0 0 170 170">
+  <defs>
+    <filter id="Ellipse_103" x="0" y="0" width="170" height="170" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-color="#6c6c6c"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_47" data-name="Group 47" transform="translate(-1136 -823)">
+    <g transform="matrix(1, 0, 0, 1, 1136, 823)" filter="url(#Ellipse_103)">
+      <circle id="Ellipse_103-2" data-name="Ellipse 103" cx="55" cy="55" r="55" transform="translate(30 30)" fill="#6c6c6c"/>
+    </g>
+    <g id="flame-svgrepo-com" transform="translate(1082.605 870.142)" opacity="0.3">
+      <path id="Path_200" data-name="Path 200" d="M127.262,75.618a.816.816,0,0,0,1.067-1.163c-2.458-3.825-4.785-10.262-1.077-18.552,6.184-13.824,9.947-20.984,9.947-20.984A49.774,49.774,0,0,0,144.625,50.7c5.222,7.15,8.08,16.143,3.472,23.635a.816.816,0,0,0,1.065,1.157c5.7-2.918,12.1-8.77,12.823-20.416a39.846,39.846,0,0,0-2.129-14.828c-2.566-7.968-5.721-11.687-7.546-13.283a.817.817,0,0,0-1.35.67c.532,8.6-2.7,10.78-4.544,5.863a30.09,30.09,0,0,1-1.164-9.5,32.478,32.478,0,0,0-6.4-19.738A22.353,22.353,0,0,0,134.825.172a.816.816,0,0,0-1.313.705c.338,4.669.032,18.049-11.707,34.035-10.644,14.828-6.519,26.216-5.056,29.3A24.14,24.14,0,0,0,127.262,75.618Z" transform="translate(0 0)" fill="#3d3d3d"/>
+    </g>
+  </g>
+</svg>

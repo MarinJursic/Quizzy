@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="618.5" height="317.5" viewBox="0 0 618.5 317.5">
+  <defs>
+    <filter id="Ellipse_32" x="116.5" y="0" width="288" height="288" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#8358e8"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_33" x="0" y="250.5" width="67" height="67" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur-2"/>
+      <feFlood flood-color="#8358e8"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Ellipse_32)">
+    <g id="Ellipse_32-2" data-name="Ellipse 32" transform="translate(131.5 15)" fill="none" stroke="#8358e8" stroke-width="30" stroke-dasharray="300 400">
+      <circle cx="129" cy="129" r="129" stroke="none"/>
+      <circle cx="129" cy="129" r="114" fill="none"/>
+    </g>
+  </g>
+  <rect id="Rectangle_243" data-name="Rectangle 243" width="282" height="53" rx="10" transform="translate(336.5 39)" fill="#272727"/>
+  <text id="You_ve_mastered_50_of_this_set_" data-name="You&apos;ve mastered 50% of this set " transform="translate(364.5 74)" fill="#fff" font-size="18" font-family="Dubai-Regular, Dubai"><tspan x="0" y="0">You&apos;ve mastered 50% of this set </tspan></text>
+  <path id="Polygon_7" data-name="Polygon 7" d="M8.4,4.484a3,3,0,0,1,5.193,0l5.8,10.012A3,3,0,0,1,16.8,19H5.2a3,3,0,0,1-2.6-4.5Z" transform="translate(380.5 106) rotate(180)" fill="#272727"/>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Ellipse_33)">
+    <circle id="Ellipse_33-2" data-name="Ellipse 33" cx="11" cy="11" r="11" transform="translate(22.5 273)" fill="#8358e8"/>
+  </g>
+  <text id="Mastery_Progress" data-name="Mastery Progress" transform="translate(53.5 291)" fill="#8358e8" font-size="17" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Mastery Progress</tspan></text>
+  <text id="_50_" data-name="50%" transform="translate(220.5 157)" fill="#060606" font-size="40" font-family="Dubai-Medium, Dubai" font-weight="500"><tspan x="0" y="0">50%</tspan></text>
+  <g id="Ellipse_35" data-name="Ellipse 35" transform="translate(389.5 274) rotate(180)" fill="none" stroke="#363636" stroke-width="30" stroke-dasharray="300 400">
+    <circle cx="129" cy="129" r="129" stroke="none"/>
+    <circle cx="129" cy="129" r="114" fill="none"/>
+  </g>
+</svg>

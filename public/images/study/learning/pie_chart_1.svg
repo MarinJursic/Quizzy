@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="563.5" height="317.5" viewBox="0 0 563.5 317.5">
+  <defs>
+    <filter id="Ellipse_27" x="0" y="250.5" width="67" height="67" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-color="#e85871"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_28" x="132.5" y="0" width="276" height="276" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-color="#e85871"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Ellipse_25" data-name="Ellipse 25" transform="translate(141.5 9)" fill="none" stroke="#8358e8" stroke-width="30" stroke-dasharray="300 400">
+    <circle cx="129" cy="129" r="129" stroke="none"/>
+    <circle cx="129" cy="129" r="114" fill="none"/>
+  </g>
+  <rect id="Rectangle_234" data-name="Rectangle 234" width="217" height="53" rx="10" transform="translate(346.5 33)" fill="#272727"/>
+  <text id="_6_Recall_Sessions_60m_" data-name="6 Recall Sessions (60m)" transform="translate(374.5 68)" fill="#fff" font-size="18" font-family="Dubai-Regular, Dubai"><tspan x="0" y="0">6 Recall Sessions (60m)</tspan></text>
+  <path id="Polygon_5" data-name="Polygon 5" d="M8.4,4.484a3,3,0,0,1,5.193,0l5.8,10.012A3,3,0,0,1,16.8,19H5.2a3,3,0,0,1-2.6-4.5Z" transform="translate(390.5 100) rotate(180)" fill="#272727"/>
+  <circle id="Ellipse_26" data-name="Ellipse 26" cx="11" cy="11" r="11" transform="translate(22.5 245)" fill="#8358e8"/>
+  <text id="Recall_Sessions" data-name="Recall Sessions" transform="translate(52.5 263)" fill="#8358e8" font-size="17" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Recall Sessions</tspan></text>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Ellipse_27)">
+    <circle id="Ellipse_27-2" data-name="Ellipse 27" cx="11" cy="11" r="11" transform="translate(22.5 273)" fill="#e85871"/>
+  </g>
+  <text id="Flashcards" transform="translate(52.5 291)" fill="#e85871" font-size="17" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Flashcards</tspan></text>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Ellipse_28)">
+    <g id="Ellipse_28-2" data-name="Ellipse 28" transform="translate(399.5 267) rotate(180)" fill="none" stroke="#e85871" stroke-width="30" stroke-dasharray="300 400">
+      <circle cx="129" cy="129" r="129" stroke="none"/>
+      <circle cx="129" cy="129" r="114" fill="none"/>
+    </g>
+  </g>
+  <rect id="Rectangle_235" data-name="Rectangle 235" width="169" height="53" rx="10" transform="translate(8.5 66)" fill="#272727"/>
+  <text id="Flashcards_60m_" data-name="Flashcards (60m)" transform="translate(29.5 101)" fill="#fff" font-size="18" font-family="Dubai-Regular, Dubai"><tspan x="0" y="0">Flashcards (60m)</tspan></text>
+  <path id="Polygon_6" data-name="Polygon 6" d="M8.4,4.484a3,3,0,0,1,5.193,0l5.8,10.012A3,3,0,0,1,16.8,19H5.2a3,3,0,0,1-2.6-4.5Z" transform="translate(165.5 130) rotate(180)" fill="#272727"/>
+  <text id="_2_hours" data-name="2 hours" transform="translate(207.5 150)" fill="#060606" font-size="40" font-family="Dubai-Medium, Dubai" font-weight="500"><tspan x="0" y="0">2 hours</tspan></text>
+</svg>

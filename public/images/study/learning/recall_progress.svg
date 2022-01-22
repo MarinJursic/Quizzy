@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1326.5" height="160.689" viewBox="0 0 1326.5 160.689">
+  <defs>
+    <filter id="Rectangle_250" x="0" y="67.189" width="983" height="52" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#8358e8"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_249" x="0" y="67.189" width="666" height="52" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-2"/>
+      <feFlood flood-color="#8358e8"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_247" x="0.5" y="67.439" width="341" height="52" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-3"/>
+      <feFlood flood-color="#8358e8"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_251" x="127.655" y="0" width="86.689" height="86.689" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur-4"/>
+      <feFlood flood-color="#8358e8"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_252" x="433.655" y="0" width="86.689" height="86.689" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur-5"/>
+      <feFlood flood-color="#8358e8"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_253" x="758.655" y="0" width="86.689" height="86.689" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur-6"/>
+      <feFlood flood-color="#8358e8"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_250)">
+    <path id="Rectangle_250-2" data-name="Rectangle 250" d="M0,0H942a11,11,0,0,1,11,11v0a11,11,0,0,1-11,11H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(15 82.19)" fill="#b9a2ee"/>
+  </g>
+  <line id="Line_73" data-name="Line 73" x2="329.5" y2="0.25" transform="translate(968.5 92.689)" fill="none" stroke="#707070" stroke-width="1"/>
+  <line id="Line_72" data-name="Line 72" y2="64" transform="translate(15 60.939)" fill="none" stroke="#707070" stroke-width="1"/>
+  <text id="_0_" data-name="0%" transform="translate(8 155.689)" fill="#7b7b7b" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">0%</tspan></text>
+  <line id="Line_74" data-name="Line 74" y2="64" transform="translate(1298 60.939)" fill="none" stroke="#707070" stroke-width="1"/>
+  <text id="_50_" data-name="50%" transform="translate(631 155.689)" fill="#7b7b7b" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">50%</tspan></text>
+  <text id="_100_" data-name="100%" transform="translate(1278.5 155.689)" fill="#7b7b7b" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">100%</tspan></text>
+  <text id="_25_" data-name="25%" transform="translate(313.5 155.689)" fill="#7b7b7b" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">25%</tspan></text>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_249)">
+    <path id="Rectangle_249-2" data-name="Rectangle 249" d="M0,0H625a11,11,0,0,1,11,11v0a11,11,0,0,1-11,11H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(15 82.19)" fill="#6d4bbb"/>
+  </g>
+  <text id="_75_" data-name="75%" transform="translate(948.5 155.689)" fill="#7b7b7b" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">75%</tspan></text>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_247)">
+    <path id="Rectangle_247-2" data-name="Rectangle 247" d="M0,0H300a11,11,0,0,1,11,11v0a11,11,0,0,1-11,11H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(15.5 82.44)" fill="#4b3384"/>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_251)">
+    <rect id="Rectangle_251-2" data-name="Rectangle 251" width="41.689" height="41.689" rx="10" transform="translate(150.16 22.5)" fill="#4b3384"/>
+  </g>
+  <g id="mood_bad_black_24dp" transform="translate(157.638 29.982)">
+    <path id="Path_50" data-name="Path 50" d="M0,0H27.258V27.258H0Z" fill="none"/>
+    <path id="Path_51" data-name="Path 51" d="M14.548,2A12.56,12.56,0,1,0,27.121,14.56,12.554,12.554,0,0,0,14.548,2Zm.013,22.609A10.048,10.048,0,1,1,24.609,14.56,10.045,10.045,0,0,1,14.56,24.609Zm4.4-11.3a1.884,1.884,0,1,0-1.884-1.884A1.882,1.882,0,0,0,18.956,13.3Zm-8.792,0A1.884,1.884,0,1,0,8.28,11.42,1.882,1.882,0,0,0,10.164,13.3Zm4.4,3.14a6.9,6.9,0,0,0-6.418,4.4H20.979A6.9,6.9,0,0,0,14.56,16.444Z" transform="translate(-0.931 -0.931)" fill="#fff"/>
+  </g>
+  <path id="Polygon_9" data-name="Polygon 9" d="M7.5,0,15,13H0Z" transform="translate(179 76.189) rotate(180)" fill="#4b3384"/>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_252)">
+    <rect id="Rectangle_252-2" data-name="Rectangle 252" width="41.689" height="41.689" rx="10" transform="translate(456.16 22.5)" fill="#6d4bbb"/>
+  </g>
+  <path id="Polygon_10" data-name="Polygon 10" d="M7.5,0,15,13H0Z" transform="translate(485 76.189) rotate(180)" fill="#6d4bbb"/>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_253)">
+    <rect id="Rectangle_253-2" data-name="Rectangle 253" width="41.689" height="41.689" rx="10" transform="translate(781.16 22.5)" fill="#b9a2ee"/>
+  </g>
+  <path id="Polygon_11" data-name="Polygon 11" d="M7.5,0,15,13H0Z" transform="translate(810 76.189) rotate(180)" fill="#b9a2ee"/>
+  <g id="sentiment_satisfied_black_24dp" transform="translate(461 27.189)">
+    <path id="Path_48" data-name="Path 48" d="M0,0H33V33H0Z" fill="none"/>
+    <circle id="Ellipse_21" data-name="Ellipse 21" cx="2" cy="2" r="2" transform="translate(19 11)" fill="#fff"/>
+    <circle id="Ellipse_22" data-name="Ellipse 22" cx="2" cy="2" r="2" transform="translate(10 11)" fill="#fff"/>
+    <path id="Path_49" data-name="Path 49" d="M15.75,21.25a5.5,5.5,0,0,1-4.744-2.75H8.71a7.556,7.556,0,0,0,14.08,0h-2.3a5.5,5.5,0,0,1-4.744,2.75ZM15.736,2A13.75,13.75,0,1,0,29.5,15.75,13.743,13.743,0,0,0,15.736,2Zm.014,24.75a11,11,0,1,1,11-11A11,11,0,0,1,15.75,26.75Z" transform="translate(0.75 0.75)" fill="#fff"/>
+  </g>
+  <g id="sentiment_very_satisfied_black_24dp_1_" data-name="sentiment_very_satisfied_black_24dp (1)" transform="translate(788.37 29.715)">
+    <path id="Path_52" data-name="Path 52" d="M0,0H27.26V27.26H0Z" fill="none"/>
+    <path id="Path_53" data-name="Path 53" d="M14.548,2A12.56,12.56,0,1,0,27.121,14.56,12.546,12.546,0,0,0,14.548,2Zm.013,22.609A10.048,10.048,0,1,1,24.609,14.56,10.046,10.046,0,0,1,14.56,24.609Zm1.256-12.636L17.148,13.3l1.331-1.331L19.811,13.3l1.331-1.331L18.479,9.31Zm-5.175,0L11.973,13.3,13.3,11.973,10.642,9.31,7.979,11.973,9.31,13.3l1.331-1.331Zm3.919,9.5a6.9,6.9,0,0,0,6.418-4.4H8.142A6.9,6.9,0,0,0,14.56,21.469Z" transform="translate(-0.93 -0.93)" fill="#fff"/>
+  </g>
+</svg>

@@ -6,10 +6,17 @@ import { useLocation, Link } from "react-router-dom";
 
 function Header() {
   const location = useLocation();
+
   return (
     <>
-      {location.pathname !== "/signup" && location.pathname !== "/login" && (
-        <header>
+      {!["/signup", "/login", "/404"].includes(location.pathname) && (
+        <header
+          style={
+            location.pathname.includes("/quizzyplus")
+              ? { background: "transparent", position: "absolute" }
+              : null
+          }
+        >
           <Link to="/dashboard">
             <h1>Quizzy</h1>
           </Link>

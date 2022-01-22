@@ -1,13 +1,24 @@
 import React from "react";
 import "./Navbar.scss";
 
+import { useDispatch, useSelector } from "react-redux";
+import { logout } from "../../actions/userActions";
+
+import { Link } from "react-router-dom";
+
 function Navbar() {
+  const dispatch = useDispatch();
+
+  const handleLogout = () => {
+    dispatch(logout());
+  };
+
   return (
-    <aside>
+    <aside className="navbar">
       <nav>
         <ul>
           <li className="active">
-            <a href="/dashboard">
+            <Link to="/dashboard">
               <svg
                 id="timeline_black_24dp"
                 xmlns="http://www.w3.org/2000/svg"
@@ -41,10 +52,10 @@ function Navbar() {
                 </g>
               </svg>
               <h3>Overview</h3>
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/study">
+            <Link to="/study">
               <svg
                 id="sticky_note_2_black_24dp"
                 xmlns="http://www.w3.org/2000/svg"
@@ -68,10 +79,10 @@ function Navbar() {
                 />
               </svg>
               <h3>Study</h3>
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/friends">
+            <Link to="/friends">
               <svg
                 id="people_black_24dp"
                 xmlns="http://www.w3.org/2000/svg"
@@ -94,10 +105,10 @@ function Navbar() {
                 />
               </svg>
               <h3>Friends</h3>
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/payments">
+            <Link to="/payments">
               <svg
                 id="credit_card_black_24dp"
                 xmlns="http://www.w3.org/2000/svg"
@@ -120,10 +131,10 @@ function Navbar() {
                 />
               </svg>
               <h3>Payments</h3>
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/changelog">
+            <Link to="/changelog">
               <svg
                 id="notes_black_24dp"
                 xmlns="http://www.w3.org/2000/svg"
@@ -147,10 +158,10 @@ function Navbar() {
               </svg>
 
               <h3>Changelog</h3>
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/settings">
+            <Link to="/settings">
               <svg
                 id="settings_black_24dp"
                 xmlns="http://www.w3.org/2000/svg"
@@ -173,10 +184,10 @@ function Navbar() {
               </svg>
 
               <h3>Settings</h3>
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/admin">
+            <Link to="/admin">
               <svg
                 id="admin_panel_settings_black_24dp"
                 xmlns="http://www.w3.org/2000/svg"
@@ -224,15 +235,15 @@ function Navbar() {
                 </g>
               </svg>
               <h3>Admin panel</h3>
-            </a>
+            </Link>
           </li>
           <li className="plus">
             <h4>
               Upgrade to <strong>Quizzy+ </strong>for more features.
             </h4>
-            <a href="/quizzyplus" className="plusLink">
+            <Link to="/quizzyplus" className="plusLink">
               Get Quizzy+
-            </a>
+            </Link>
           </li>
           <li className="logout">
             <button>
@@ -260,7 +271,7 @@ function Navbar() {
                   />
                 </g>
               </svg>
-              <h3>Logout</h3>
+              <h3 onClick={handleLogout}>Logout</h3>
             </button>
           </li>
         </ul>

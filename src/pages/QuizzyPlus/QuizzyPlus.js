@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./QuizzyPlus.scss";
 
 import { Link } from "react-router-dom";
@@ -9,7 +9,7 @@ import { lightBlue } from "@mui/material/colors";
 import { alpha } from "@mui/material";
 
 import { useDispatch } from "react-redux";
-import { activatePlan } from "../../actions/planActions";
+import { activatePlan, changePricing } from "../../actions/planActions";
 
 function QuizzyPlus() {
   const dispatch = useDispatch();
@@ -28,6 +28,8 @@ function QuizzyPlus() {
       backgroundColor: lightBlue[300],
     },
   }));
+
+  const [pricing, setPricing] = useState("monthly");
 
   const [plans] = useState([
     {
@@ -104,6 +106,10 @@ function QuizzyPlus() {
     dispatch(activatePlan(plan));
   };
 
+  useEffect(() => {
+    dispatch(changePricing(pricing));
+  }, [pricing]);
+
   return (
     <div className="quizzyplus">
       <svg
@@ -154,28 +160,258 @@ function QuizzyPlus() {
         <h6>Script, forget the A. You're going to get an A+.</h6>
         <div className="switch">
           Monthly
-          <LightBlue size="medium" />
+          <LightBlue
+            size="medium"
+            checked={pricing === "yearly"}
+            onChange={(e) =>
+              setPricing(e.target.checked ? "yearly" : "monthly")
+            }
+          />
           Yearly
         </div>
-        <section>
+        <section className="plans">
           {plans.map((plan) => (
-            <div className="plan">
-              <h2>{plan.plan}</h2>
-              <div className="line" />
-              <div className="price">
-                <h1>${plan.priceMonthly}</h1>
-                <h3>/month</h3>
+            <div className="flip">
+              <div
+                className="front"
+                style={
+                  pricing === "monthly"
+                    ? { opacity: 1, transform: "rotateY(0deg)", zIndex: "5" }
+                    : { transform: "rotateY(180deg)" }
+                }
+              >
+                <div className="plan">
+                  <h2>{plan.plan}</h2>
+                  <div className="line" />
+                  <div className="price">
+                    <h1>${plan.priceMonthly}</h1>
+                    <h3>/month</h3>
+                  </div>
+                  <Link to="/quizzyplus/purchase" onClick={() => buyPlan(plan)}>
+                    Get Started
+                  </Link>
+                  <ul>
+                    {plan.features.map((feature) => (
+                      <li>
+                        <img src="/images/bullet.svg" alt="bullet icon" />
+                        <p>{feature}</p>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
               </div>
-              <Link to="/purchase" onClick={() => buyPlan(plan)}>
-                Get Started
-              </Link>
-              <ul>
-                {plan.features.map((feature) => (
-                  <li>{feature}</li>
-                ))}
-              </ul>
+              <div
+                className="back"
+                style={
+                  pricing === "yearly"
+                    ? { opacity: 1, transform: "rotateY(0deg)" }
+                    : { transform: "rotateY(180deg)" }
+                }
+              >
+                <div className="plan">
+                  <h2>{plan.plan}</h2>
+                  <div className="line" />
+                  <div className="price">
+                    <h1>${plan.priceYearly}</h1>
+                    <h3>/year</h3>
+                  </div>
+                  <Link to="/quizzyplus/purchase" onClick={() => buyPlan(plan)}>
+                    Get Started
+                  </Link>
+                  <ul>
+                    {plan.features.map((feature) => (
+                      <li>
+                        <img src="/images/bullet.svg" alt="bullet icon" />
+                        <p>{feature}</p>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
             </div>
           ))}
+        </section>
+        <section className="features">
+          <div className="right_text">
+            <div className="left">
+              <img
+                src="/images/quizzyplus/features/grades.svg"
+                alt="main graphic"
+              />
+            </div>
+            <div className="right">
+              <h3>Boost your grades with Overall Stats</h3>
+              <div className="checks">
+                <div className="check">
+                  <img
+                    src="/images/quizzyplus/features/check.svg"
+                    alt="graphic of a check"
+                  />
+                  <p>
+                    See what study methods other students are using to make the
+                    most out of your learning
+                  </p>
+                </div>
+                <div className="check">
+                  <img
+                    src="/images/quizzyplus/features/check.svg"
+                    alt="graphic of a check"
+                  />
+                  <p>
+                    Compare each set with how fast others learned their material
+                    to get a glimpse of how fast you can master it
+                  </p>
+                </div>
+                <div className="check">
+                  <img
+                    src="/images/quizzyplus/features/check.svg"
+                    alt="graphic of a check"
+                  />
+                  <p>
+                    Look through the average set views by each weekday to see
+                    when people are usually studying each set
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="left_text">
+            <div className="left">
+              <h3>Enjoy an increased image limit of up to 250 MB</h3>
+              <div className="checks">
+                <div className="check">
+                  <img
+                    src="/images/quizzyplus/features/check.svg"
+                    alt="graphic of a check"
+                  />
+                  <p>
+                    With an increased image size, you have plenty of space to
+                    upload any type of image that'll help you with studying
+                  </p>
+                </div>
+                <div className="check">
+                  <img
+                    src="/images/quizzyplus/features/check.svg"
+                    alt="graphic of a check"
+                  />
+                  <p>
+                    With Quizzy+ Standard or Professional, you also get the
+                    ability to make your profile picture a .gif, asserting your
+                    dominance over those with still-image profile pictures.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="right">
+              <img
+                src="/images/quizzyplus/features/imagelimit.svg"
+                alt="main graphic"
+              />
+            </div>
+          </div>
+          <div className="right_text">
+            <div className="left">
+              <img
+                src="/images/quizzyplus/features/noads.svg"
+                alt="main graphic"
+              />
+            </div>
+            <div className="right">
+              <h3>Say goodbye to those pesky ads</h3>
+              <div className="checks">
+                <div className="check">
+                  <img
+                    src="/images/quizzyplus/features/check.svg"
+                    alt="graphic of a check"
+                  />
+                  <p>
+                    With Quizzy+, you can enjoy an ad-free study experience.
+                    With zero distractions, you'll be able to focus on what
+                    matters most -- your education.
+                  </p>
+                </div>
+                <div className="check">
+                  <img
+                    src="/images/quizzyplus/features/check.svg"
+                    alt="graphic of a check"
+                  />
+                  <p>Study well, knowing you're supporting us ❤️</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="left_text">
+            <div className="left">
+              <h3>Showcase your brand new Quizzy+ badge</h3>
+              <div className="checks">
+                <div className="check">
+                  <img
+                    src="/images/quizzyplus/features/check.svg"
+                    alt="graphic of a check"
+                  />
+                  <p>
+                    Flex your brand new Quizzy+ badge to your friends. You're a
+                    part of the students who'll turn that A into an A+.
+                  </p>
+                </div>
+                <div className="check">
+                  <img
+                    src="/images/quizzyplus/features/check.svg"
+                    alt="graphic of a check"
+                  />
+                  <p>
+                    Once you purchase Quizzy+ once, you'll receive a permanent
+                    badge showing that you were a part of the A+ club.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="right">
+              <img
+                src="/images/quizzyplus/features/showcase.svg"
+                alt="main graphic"
+              />
+            </div>
+          </div>
+          <div className="right_text">
+            <div className="left">
+              <img
+                src="/images/quizzyplus/features/charts.svg"
+                alt="main graphic"
+              />
+            </div>
+            <div className="right">
+              <h3>More charts, more data</h3>
+              <div className="checks">
+                <div className="check">
+                  <img
+                    src="/images/quizzyplus/features/check.svg"
+                    alt="graphic of a check"
+                  />
+                  <p>
+                    See how you compare with other people who studied the same
+                    set.
+                  </p>
+                </div>
+                <div className="check">
+                  <img
+                    src="/images/quizzyplus/features/check.svg"
+                    alt="graphic of a check"
+                  />
+                  <p>
+                    See how you as an individual learn different sets, and find
+                    out how you best learn.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h3 className="much_more">...and much more!</h3>
+        </section>
+        <section className="footer">
+          <h2>
+            That A+ is waiting. You just have to claim it. Let's get started.
+          </h2>
         </section>
       </main>
     </div>

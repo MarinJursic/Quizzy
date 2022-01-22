@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="86.689" height="86.689" viewBox="0 0 86.689 86.689">
+  <defs>
+    <filter id="Rectangle_251" x="0" y="0" width="86.689" height="86.689" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-color="#8358e8"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_50" data-name="Group 50" transform="translate(-452.655 -4104.811)">
+    <g id="Group_49" data-name="Group 49">
+      <g id="Group_48" data-name="Group 48">
+        <g transform="matrix(1, 0, 0, 1, 452.66, 4104.81)" filter="url(#Rectangle_251)">
+          <rect id="Rectangle_251-2" data-name="Rectangle 251" width="41.689" height="41.689" rx="10" transform="translate(22.5 22.5)" fill="#4b3384"/>
+        </g>
+        <g id="mood_bad_black_24dp" transform="translate(482.638 4134.793)">
+          <path id="Path_50" data-name="Path 50" d="M0,0H27.258V27.258H0Z" fill="none"/>
+          <path id="Path_51" data-name="Path 51" d="M14.548,2A12.56,12.56,0,1,0,27.121,14.56,12.554,12.554,0,0,0,14.548,2Zm.013,22.609A10.048,10.048,0,1,1,24.609,14.56,10.045,10.045,0,0,1,14.56,24.609Zm4.4-11.3a1.884,1.884,0,1,0-1.884-1.884A1.882,1.882,0,0,0,18.956,13.3Zm-8.792,0A1.884,1.884,0,1,0,8.28,11.42,1.882,1.882,0,0,0,10.164,13.3Zm4.4,3.14a6.9,6.9,0,0,0-6.418,4.4H20.979A6.9,6.9,0,0,0,14.56,16.444Z" transform="translate(-0.931 -0.931)" fill="#fff"/>
+        </g>
+        <path id="Polygon_9" data-name="Polygon 9" d="M7.5,0,15,13H0Z" transform="translate(504 4181) rotate(180)" fill="#4b3384"/>
+      </g>
+    </g>
+  </g>
+</svg>

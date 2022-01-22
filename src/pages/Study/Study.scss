@@ -1,0 +1,680 @@
+@font-face {
+  font-family: "Segoe UI Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../../public/fonts/SergoeUI/Segoe\ UI\ Bold.woff");
+}
+
+@font-face {
+  font-family: "Segoe UI Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../../public/fonts/SergoeUI/Segoe\ UI\ Italic.woff");
+}
+
+@font-face {
+  font-family: "Segoe UI Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../../public/fonts/SergoeUI/Segoe\ UI.woff");
+}
+
+@font-face {
+  font-family: "Segoe UI Light";
+  font-style: normal;
+  font-weight: lighter;
+  src: url("../../../public/fonts/SergoeUI/Segoe\ UI.woff");
+}
+
+@font-face {
+  font-family: "Dubai Light";
+  font-style: normal;
+  font-weight: lighter;
+  src: url("../../../public/fonts/dubai/DubaiW23-Light.ttf");
+}
+
+@font-face {
+  font-family: "Dubai Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../../public/fonts/dubai/DubaiW23-Regular.ttf");
+}
+
+.study {
+  * {
+    box-sizing: border-box;
+  }
+
+  main {
+    padding: 2.5rem 4rem;
+    padding-top: 8rem;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .card {
+      padding: 3rem;
+      background-color: white;
+      box-shadow: 0 0 25px rgba(0, 0, 0, 0.16);
+      border-radius: 1rem;
+    }
+
+    h4 {
+      font-size: 2.25rem;
+      font-weight: 500;
+      color: #060606;
+    }
+
+    .top {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      place-content: space-between;
+
+      .left {
+        width: 15%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        p {
+          font-family: "Segoe UI Regular", sans-serif;
+          font-size: 1.1rem;
+          color: #a8a8a8;
+          font-weight: bolder;
+          margin-bottom: 0.1rem;
+        }
+
+        .coming_soon {
+          margin-top: 2rem;
+          button {
+            cursor: default;
+            background: #c5c5c5;
+          }
+        }
+
+        .purple {
+          &:hover {
+            cursor: pointer;
+            box-shadow: 0px 0px 20px #8358e8;
+            transition: box-shadow 0.3s;
+          }
+        }
+
+        button {
+          cursor: pointer;
+          margin: 1rem 0;
+          background: rgb(131, 88, 232);
+          background: linear-gradient(
+            0deg,
+            rgba(131, 88, 232, 1) 0%,
+            rgba(76, 114, 230, 1) 100%
+          );
+          border-radius: 0.75rem;
+          width: 10rem;
+          border: none;
+          padding: 0.8rem 1rem;
+          display: flex;
+          align-items: center;
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.16);
+
+          img {
+            width: 1.3rem;
+            margin-right: 0.25rem;
+          }
+
+          p {
+            color: white;
+          }
+        }
+      }
+
+      .right {
+        margin-left: 7rem;
+        width: 100%;
+        .top_bar {
+          padding: 0.5rem 0;
+          border-bottom: 1px solid rgba(112, 112, 112, 0.22);
+          width: 100%;
+          position: relative;
+
+          .avg_mastery {
+            position: absolute;
+            right: 0;
+            bottom: 0.5rem;
+            color: #5e5e5e;
+          }
+
+          .test_announcement {
+            display: flex;
+            align-items: center;
+            p {
+              color: #a8a8a8;
+            }
+
+            img {
+              width: 0.9rem;
+              margin-left: 0.5rem;
+            }
+          }
+
+          .title {
+            margin: 0.5rem 0;
+            display: flex;
+            align-items: center;
+            h3 {
+              color: #2b2b2b;
+              font-size: 2.8rem;
+            }
+
+            img {
+              width: 2.3rem;
+              margin-left: 1rem;
+            }
+          }
+
+          p {
+            color: #a8a8a8;
+          }
+
+          .user {
+            margin-top: 0.5rem;
+            display: flex;
+            align-items: center;
+            .pfp {
+              width: 2rem;
+            }
+
+            p {
+              margin: 0 0.5rem;
+              color: #2a2a2a;
+              font-weight: 500;
+            }
+
+            img {
+              width: 1.5rem;
+            }
+          }
+        }
+
+        .content {
+          padding: 3.5rem 7.5rem;
+          .card {
+            width: 60%;
+            height: 20rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            h4 {
+              font-size: 2rem;
+              font-weight: 500;
+            }
+          }
+        }
+      }
+    }
+
+    .test {
+      width: 50%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 12rem;
+      .title {
+        display: flex;
+        align-items: center;
+
+        img {
+          margin-left: 1rem;
+          width: 2.9rem;
+        }
+      }
+
+      .test_timeline {
+        width: 55rem;
+        margin: 6rem 0;
+      }
+
+      .card {
+        margin-top: 5rem;
+        display: flex;
+        align-items: flex-start;
+        place-content: space-between;
+
+        h5 {
+          font-size: 1.25rem;
+          font-weight: 500;
+        }
+
+        .calendar {
+          p {
+            font-size: 0.75rem;
+            color: #7d7d7d;
+            font-weight: 500;
+          }
+        }
+
+        .recall_sessions {
+          margin-left: 5rem;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          .title {
+            display: flex;
+            align-items: center;
+            button {
+              cursor: pointer;
+              margin-left: 0.5rem;
+              padding: 0.3rem 0.5rem;
+              color: #8358e8;
+              font-weight: 500;
+              font-size: 0.75rem;
+              background-color: #f1ebff;
+              border-radius: 0.4rem;
+              border: none;
+              transition: 0.3s ease-in-out;
+
+              &:hover {
+                box-shadow: 0 0 10px #8358e848;
+              }
+            }
+          }
+
+          .content {
+            display: flex;
+            align-items: center;
+
+            ul {
+              list-style-type: none;
+              li {
+                display: flex;
+                align-items: center;
+                font-size: 1.1rem;
+                font-weight: 500;
+                color: #7d7d7d;
+                margin: 1.6rem 0;
+                position: relative;
+
+                &:before {
+                  position: absolute;
+                  content: "";
+                  height: 2.1rem;
+                  background-color: #8358e8;
+                  width: 3px;
+                  left: 0.8rem;
+                  bottom: -1.85rem;
+                }
+
+                img {
+                  height: 1.8rem;
+                  width: 1.8rem;
+                  margin-right: 1rem;
+                }
+              }
+
+              .test_list_item {
+                &:before {
+                  height: 0;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .my_learning {
+      width: 80%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 6rem;
+      padding-bottom: 5rem;
+
+      h4 {
+        margin: 2.5rem auto;
+      }
+
+      .card {
+        margin: 2.5rem 0;
+
+        h5 {
+          font-size: 1.5rem;
+          font-weight: 500;
+          color: #060606;
+          margin-bottom: 2rem;
+          text-align: center;
+        }
+      }
+
+      .pie_charts {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        place-content: space-between;
+        .card {
+          padding: 2rem 8rem;
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          height: 29rem;
+        }
+      }
+
+      .recall_progress_chart {
+        box-sizing: border-box;
+        width: 100%;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .study_times {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        .study_history {
+          height: 30rem;
+          width: 30%;
+          .top {
+            display: flex;
+            align-items: center;
+            place-content: space-between;
+            padding-right: 0.5rem;
+            width: 100%;
+            border-bottom: 1px solid #c5c5c5;
+            .left {
+              display: flex;
+              align-items: center;
+              flex-direction: row;
+              width: fit-content;
+              img {
+                width: 1.2rem;
+              }
+
+              p {
+                color: #c5c5c5;
+                font-size: 1.2rem;
+                font-weight: 500;
+                margin-left: 1rem;
+              }
+            }
+
+            .right {
+              width: fit-content;
+              margin-left: 0;
+              img {
+                width: 1.2rem;
+              }
+            }
+          }
+
+          .content {
+            .bar {
+              margin: 1rem 0;
+              display: flex;
+              align-items: center;
+              place-content: space-between;
+              .left {
+                display: flex;
+                align-items: center;
+                flex-direction: row;
+                width: fit-content;
+                img {
+                  width: 1.4rem;
+                }
+
+                p {
+                  color: #7b7b7b;
+                  font-size: 1.2rem;
+                  font-weight: 500;
+                  margin-left: 1rem;
+                }
+              }
+
+              .right {
+                width: fit-content;
+                margin-left: 0;
+                p {
+                  color: #7b7b7b;
+                  font-size: 1.2rem;
+                  font-weight: 500;
+                  margin-left: 1rem;
+                }
+              }
+            }
+          }
+        }
+
+        .learning_time {
+          width: 70%;
+          margin-left: 10%;
+          height: 30rem;
+        }
+      }
+
+      .recall_progress_bar {
+        text-align: left;
+        width: 100%;
+        padding: 2rem 4rem;
+        img {
+          width: 100%;
+        }
+
+        h5 {
+          margin-right: auto;
+          width: fit-content;
+        }
+
+        p {
+          color: #7b7b7b;
+          font-size: 0.9rem;
+          font-weight: 500;
+          margin-top: 2rem;
+        }
+      }
+
+      .most_difficult {
+        width: 100%;
+        padding: 0.8rem;
+        padding-top: 2rem;
+
+        .upgrade {
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          background: rgba(238, 230, 255, 0.4);
+          border-radius: 1.25rem;
+          padding: 1rem;
+          padding-top: 2rem;
+          p {
+            color: #afafaf;
+            font-weight: 500;
+            span {
+              color: #8358e8;
+              font-weight: bold;
+            }
+          }
+          a {
+            width: 100%;
+
+            button {
+              cursor: pointer;
+              margin-top: 2rem;
+              padding: 1rem 0;
+              background: rgb(131, 88, 232);
+              background: linear-gradient(
+                0deg,
+                rgba(131, 88, 232, 1) 0%,
+                rgba(76, 114, 230, 1) 100%
+              );
+              color: white;
+              font-family: "Segoe UI Regular", sans-serif;
+              font-weight: 500;
+              font-size: 16px;
+              border-radius: 1rem;
+              border: none;
+              width: 100%;
+            }
+          }
+        }
+      }
+
+      .view_history {
+        width: 90%;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+
+    .overall_stats {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      margin: 0 auto;
+      width: 90%;
+      padding-top: 5rem;
+      border-top: 1px solid rgba(112, 112, 112, 0.36);
+
+      .card {
+        margin: 2.5rem 0;
+
+        h5 {
+          font-size: 1.5rem;
+          font-weight: 500;
+          color: #060606;
+          margin-bottom: 2rem;
+          text-align: center;
+        }
+
+        p {
+          color: #7b7b7b;
+          font-size: 0.9rem;
+          font-weight: 500;
+          margin-top: 2rem;
+        }
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .title {
+        display: flex;
+        align-items: center;
+
+        .plus {
+          margin-left: 1rem;
+          font-size: 1rem;
+          color: white;
+          border-radius: 0.5rem;
+          padding: 0.2rem 0.5rem;
+          background: rgb(255, 255, 255);
+          background: radial-gradient(
+            circle,
+            rgba(192, 165, 255, 1) 0%,
+            rgba(98, 69, 165, 1) 100%
+          );
+          box-shadow: 0 0 15px #8358e8;
+        }
+      }
+
+      .recall_progress {
+        width: 90%;
+      }
+
+      .study_method {
+        padding-right: 5rem;
+        width: 90%;
+
+        .chart {
+          display: flex;
+          align-items: center;
+          height: 5rem;
+          width: 100%;
+
+          .labels {
+            margin-right: 1rem;
+            display: flex;
+            align-items: flex-start;
+            place-content: space-between;
+            flex-direction: column;
+            height: 95%;
+            .label {
+              display: flex;
+              align-items: center;
+
+              img {
+                width: 1.8rem;
+                margin-right: 1rem;
+              }
+
+              h5 {
+                font-size: 1.4rem;
+                color: #7b7b7b;
+                font-weight: 500;
+                margin: 0;
+              }
+            }
+          }
+
+          .chart_canvas {
+            width: 100%;
+          }
+        }
+      }
+
+      .avg_views {
+        width: 50%;
+
+        p {
+          margin-top: 0;
+          margin-left: 5rem;
+        }
+      }
+
+      h3 {
+        margin-bottom: 1rem;
+        font-size: 2.5rem;
+        color: #060606;
+        font-weight: 500;
+      }
+
+      .thanks_for_support {
+        color: #060606;
+        font-size: 1.55rem;
+      }
+    }
+  }
+
+  .footer {
+    padding: 3rem 10rem;
+    width: 100%;
+    background: #fbfbfb;
+    margin-top: 2.5rem;
+    .footer_title {
+      margin-top: 2rem;
+    }
+
+    p {
+      text-align: center;
+      font-size: 1.5rem;
+      color: #060606;
+      font-weight: 500;
+    }
+
+    .stats {
+      margin-top: 2rem;
+      .stat {
+        display: flex;
+        align-items: center;
+        place-content: space-between;
+        margin: 1rem 0;
+      }
+    }
+  }
+}
